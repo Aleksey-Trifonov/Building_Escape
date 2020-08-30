@@ -2,4 +2,6 @@ D:\Projects\Building_Escape\Building_Escape\Intermediate\Build\Win64\UE4Editor\D
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\Projects\Building_Escape\Building_Escape\Source\Building_Escape/Grabber.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PhysicsHandleComponent.generated.h
 D:\Projects\Building_Escape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Inc\Building_Escape\Grabber.generated.h
