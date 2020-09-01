@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBuilding_Escape_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3FB92BD4,
+				0x3838C6B0,
 				0xB6FB1498,
 				METADATA_PARAMS(nullptr, 0)
 			};

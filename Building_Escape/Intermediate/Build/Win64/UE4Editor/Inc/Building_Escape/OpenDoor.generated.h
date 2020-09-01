@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BUILDING_ESCAPE_OpenDoor_generated_h
 
-#define Building_Escape_Source_Building_Escape_OpenDoor_h_15_RPC_WRAPPERS
-#define Building_Escape_Source_Building_Escape_OpenDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Building_Escape_Source_Building_Escape_OpenDoor_h_15_INCLASS_NO_PURE_DECLS \
+#define Building_Escape_Source_Building_Escape_OpenDoor_h_16_RPC_WRAPPERS
+#define Building_Escape_Source_Building_Escape_OpenDoor_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Building_Escape_Source_Building_Escape_OpenDoor_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUOpenDoor(); \
 	friend struct Z_Construct_UClass_UOpenDoor_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UOpenDoor)
 
 
-#define Building_Escape_Source_Building_Escape_OpenDoor_h_15_INCLASS \
+#define Building_Escape_Source_Building_Escape_OpenDoor_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesUOpenDoor(); \
 	friend struct Z_Construct_UClass_UOpenDoor_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UOpenDoor)
 
 
-#define Building_Escape_Source_Building_Escape_OpenDoor_h_15_STANDARD_CONSTRUCTORS \
+#define Building_Escape_Source_Building_Escape_OpenDoor_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOpenDoor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOpenDoor) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define Building_Escape_Source_Building_Escape_OpenDoor_h_15_ENHANCED_CONSTRUCTORS \
+#define Building_Escape_Source_Building_Escape_OpenDoor_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UOpenDoor(UOpenDoor&&); \
@@ -57,34 +57,35 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UOpenDoor)
 
 
-#define Building_Escape_Source_Building_Escape_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
+#define Building_Escape_Source_Building_Escape_OpenDoor_h_16_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__AudioComponent() { return STRUCT_OFFSET(UOpenDoor, AudioComponent); } \
 	FORCEINLINE static uint32 __PPO__DoorOpenedDelay() { return STRUCT_OFFSET(UOpenDoor, DoorOpenedDelay); } \
 	FORCEINLINE static uint32 __PPO__TargetRotation() { return STRUCT_OFFSET(UOpenDoor, TargetRotation); } \
 	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenDoor, PressurePlate); } \
-	FORCEINLINE static uint32 __PPO__ActorThatOpens() { return STRUCT_OFFSET(UOpenDoor, ActorThatOpens); } \
 	FORCEINLINE static uint32 __PPO__DoorOpenSpeed() { return STRUCT_OFFSET(UOpenDoor, DoorOpenSpeed); } \
-	FORCEINLINE static uint32 __PPO__DoorCloseSpeed() { return STRUCT_OFFSET(UOpenDoor, DoorCloseSpeed); }
+	FORCEINLINE static uint32 __PPO__DoorCloseSpeed() { return STRUCT_OFFSET(UOpenDoor, DoorCloseSpeed); } \
+	FORCEINLINE static uint32 __PPO__TotalMassThreshhold() { return STRUCT_OFFSET(UOpenDoor, TotalMassThreshhold); }
 
 
-#define Building_Escape_Source_Building_Escape_OpenDoor_h_12_PROLOG
-#define Building_Escape_Source_Building_Escape_OpenDoor_h_15_GENERATED_BODY_LEGACY \
+#define Building_Escape_Source_Building_Escape_OpenDoor_h_13_PROLOG
+#define Building_Escape_Source_Building_Escape_OpenDoor_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Building_Escape_Source_Building_Escape_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
-	Building_Escape_Source_Building_Escape_OpenDoor_h_15_RPC_WRAPPERS \
-	Building_Escape_Source_Building_Escape_OpenDoor_h_15_INCLASS \
-	Building_Escape_Source_Building_Escape_OpenDoor_h_15_STANDARD_CONSTRUCTORS \
+	Building_Escape_Source_Building_Escape_OpenDoor_h_16_PRIVATE_PROPERTY_OFFSET \
+	Building_Escape_Source_Building_Escape_OpenDoor_h_16_RPC_WRAPPERS \
+	Building_Escape_Source_Building_Escape_OpenDoor_h_16_INCLASS \
+	Building_Escape_Source_Building_Escape_OpenDoor_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Building_Escape_Source_Building_Escape_OpenDoor_h_15_GENERATED_BODY \
+#define Building_Escape_Source_Building_Escape_OpenDoor_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Building_Escape_Source_Building_Escape_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
-	Building_Escape_Source_Building_Escape_OpenDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Building_Escape_Source_Building_Escape_OpenDoor_h_15_INCLASS_NO_PURE_DECLS \
-	Building_Escape_Source_Building_Escape_OpenDoor_h_15_ENHANCED_CONSTRUCTORS \
+	Building_Escape_Source_Building_Escape_OpenDoor_h_16_PRIVATE_PROPERTY_OFFSET \
+	Building_Escape_Source_Building_Escape_OpenDoor_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Building_Escape_Source_Building_Escape_OpenDoor_h_16_INCLASS_NO_PURE_DECLS \
+	Building_Escape_Source_Building_Escape_OpenDoor_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
